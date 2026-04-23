@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* CONTENEDOR */
+.contenedor {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* COLUMNAS */
+.columna {
+  background: white;
+  padding: 15px;
+  flex: 1;
+  border-radius: 8px;
+}
+
+/* TITULOS */
+h2 {
+  border-bottom: 2px solid #00aaff;
+}
+
+/* IMAGEN */
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* FORMULARIO */
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+}
